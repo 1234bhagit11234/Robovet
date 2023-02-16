@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Add_client" key="{70470EFE-9475-4036-9DF4-E2BDD5984418}" path="Add_client.svb" />
+		<child name="Demo" key="{7BFD448A-06F2-411E-9EED-64AE19A5B0F3}" path="Demo.svb" />
+	</children>
+</Root>

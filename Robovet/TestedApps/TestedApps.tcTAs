@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{8E24F04A-4EDF-4EAB-A7A3-B658A1B7F77A}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{97928684-91B8-461D-9588-246C30809BB5}">
+			<config nodeName="RV5Code" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="/database=robovet" workFolder="C:\RV5Client\Program" userName="" password="" domain="" />
+					<param name="Profile" parameters="/database=robovet" workFolder="C:\RV5Client\Program" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="/database=robovet" workFolder="C:\RV5Client\Program" />
+					<param name="Simple" fileName="RV5Code.exe" filePath="C:\RV5Client\Program\" parameters="/database=robovet" workFolder="C:\RV5Client\Program" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

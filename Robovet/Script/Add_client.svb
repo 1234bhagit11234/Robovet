@@ -1,0 +1,23 @@
+﻿Sub Test1()
+  'Runs the "RV5Code" tested application.
+  Call TestedApps.RV5Code.Run(1, True)
+  'Runs the "RV5Code" tested application.
+  Call TestedApps.RV5Code.Run(1, True)
+  'Enters text in the 'txtPassword' text editor.
+  Call Aliases.RV5Code.frmLogon.Frame1.txtPassword.SetText(Project.Variables.Password1)
+  'Enters '[Enter]' in the 'txtPassword' object.
+   Call Aliases.RV5Code.frmLogon.Frame1.txtPassword.Keys("[Enter]")
+   Call Delay(20000)
+   Call Aliases.RV5Code.frmMDIParent.MDIClient.frmMain.szMain.szMainLeft.objRVSearch.cmdNew.Click
+    Call Aliases.RV5Code.frmClientEdit.tabMain.fraContact.cboTitle.cboFreeText.Click
+    Aliases.RV5Code.frmClientEdit.tabMain.fraContact.txtFirstName.wText = "Rachna"
+    Aliases.RV5Code.frmClientEdit.tabMain.fraContact.txtLastName.wText = "Verma"
+    Aliases.RV5Code.frmClientEdit.tabMain.fraContact.txtEmail.wText = "verma.rachna@yopmail.com"
+    Aliases.RV5Code.frmClientEdit.tabMain.fraContact.txtCompany.wText = "Testingxperts"
+    Call Aliases.RV5Code.frmClientEdit.tabMain.fraContact.chkAllow_9.Click
+    Call Aliases.RV5Code.frmClientEdit.tabMain.fraContact.chkAllow_2.Click
+    Call Aliases.RV5Code.frmClientEdit.tabMain.fraContact.cmdAllowAll.Click
+    Aliases.RV5Code.frmClientEdit.tabMain.fraContact.txtPhone.wText = "Home"
+    Aliases.RV5Code.frmClientEdit.tabMain.fraContact.txtPhone_2.wText = "7018123566"
+    Call Aliases.RV5Code.frmClientEdit.cmdOK.Click
+End Sub

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{A91C7187-0793-444D-959D-AD2DDBD77CB4}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{714293E0-F9D6-4342-A462-63EBDB21E86F}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndCabinetWClass" Key="{F41AEDCE-0567-44C2-BF50-DBB5622D1F35}">
+								<Image FileName="-1846550581" Left="0" Top="0" Right="1139" Bottom="641" />
+								<TypeInfo Item0="{56300E6F-262C-4004-ABF4-83D2B8837AB1}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="CabinetWClass" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="TestComplete 15 Projects" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndShell_TrayWnd" Key="{7F727782-6398-4229-A6D5-1EA10E5D97BF}">
+								<Image FileName="1663308614" Left="0" Top="0" Right="1920" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{A22601AC-CB38-4733-B0BB-E5A067EAA9B2}">
+										<Image FileName="1663308614" Left="142" Top="0" Right="1713" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{F9A1BD46-7674-41AE-9955-541B513EBEA1}">
+												<Image FileName="1663308614" Left="144" Top="0" Right="1713" Bottom="40" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{536DF0E6-0C31-4D7B-A9C7-80AFC1071D95}">
+														<Image FileName="1663308614" Left="144" Top="0" Right="1713" Bottom="40" />
+														<TypeInfo Item0="{E2B903F9-87BA-422A-9CF8-B2EC5554F3CB}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="RV5Code" Key="{70870702-B407-4180-B8CB-05AF0C0400CB}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="RV5Code" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="frmLogon" Key="{918CC823-7AC1-4B07-A21E-32BE0AD4F7B1}">
+								<Image FileName="1264339392" Left="0" Top="0" Right="318" Bottom="146" />
+								<Properties>
+									<Property Name="NativeVBObject.Name">
+										<Value Value="frmLogon" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Frame1" Key="{EC75B3EB-4E41-408E-985E-18874CFBC879}">
+										<Image FileName="1264339392" Left="11" Top="26" Right="308" Bottom="139" />
+										<Properties>
+											<Property Name="NativeVBObject.Name">
+												<Value Value="Frame1" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="txtPassword" Key="{1AB8F2EF-A6A2-43B7-8EAA-574D112369A9}">
+												<Image FileName="1264339392" Left="19" Top="93" Right="196" Bottom="114" />
+												<TypeInfo Item0="{67C8575A-6EC3-4F92-8EDE-D27E44EAF99D}" />
+												<Properties>
+													<Property Name="NativeVBObject.Name">
+														<Value Value="txtPassword" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgRV5Code" Key="{FED4102C-261B-4308-9F09-0843C254C7C4}">
+								<TypeInfo Item0="{56300E6F-262C-4004-ABF4-83D2B8837AB1}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="RV5Code" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnOK" Key="{7FCB4809-C3CE-4943-9CB8-97402C774CAE}">
+										<Image FileName="218855233" Left="306" Top="135" Right="394" Bottom="161" />
+										<TypeInfo Item0="{B2D43CDC-C0B8-4B01-B177-21ECC3A2CDCE}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="frmMDIParent" Key="{4A2351B6-0865-494B-A767-EF717E852299}">
+								<TypeInfo Item0="{56300E6F-262C-4004-ABF4-83D2B8837AB1}" />
+								<Properties>
+									<Property Name="NativeVBObject.Name">
+										<Value Value="frmMDIParent" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="MDIClient" Key="{7D8BAC56-4B89-4B12-82F6-8C75065E83FB}">
+										<Image FileName="-1219031186" Left="8" Top="146" Right="1928" Bottom="1026" />
+										<TypeInfo Item0="{5B44EB5F-43B8-4DC0-8F64-3DD44A30960C}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="MDIClient" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="frmMain" Key="{D4AD41EC-0FD4-4C4F-A852-0581F2A94DB5}">
+												<Image FileName="-1219031186" Left="4" Top="142" Right="1932" Bottom="1030" />
+												<TypeInfo Item0="{ECD2FECA-027C-4579-A92D-491B5D581726}" />
+												<Properties>
+													<Property Name="NativeVBObject.Name">
+														<Value Value="frmMain" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="szMain" Key="{D9BAC74D-41C2-4E13-9F51-54B697033442}">
+														<Image FileName="-1219031186" Left="8" Top="146" Right="1928" Bottom="1026" />
+														<TypeInfo Item0="{EA35CA7F-2CD0-4224-96D6-32C4E15222D8}" />
+														<Properties>
+															<Property Name="NativeVBObject.Name">
+																<Value Value="szMain" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="szMainLeft" Key="{5F27667E-F6B3-4CBF-B73E-0377172D8D9D}">
+																<Image FileName="-1219031186" Left="12" Top="150" Right="304" Bottom="1022" />
+																<TypeInfo Item0="{EA35CA7F-2CD0-4224-96D6-32C4E15222D8}" />
+																<Properties>
+																	<Property Name="NativeVBObject.Name">
+																		<Value Value="szMainLeft" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="objRVSearch" Key="{090ECAD3-433C-46FC-983E-5EC90618BE7B}">
+																		<Image FileName="-1219031186" Left="12" Top="150" Right="304" Bottom="264" />
+																		<TypeInfo Item0="{EA35CA7F-2CD0-4224-96D6-32C4E15222D8}" />
+																		<Properties>
+																			<Property Name="NativeVBObject.Name">
+																				<Value Value="objRVSearch" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="cmdNew" Key="{7DDB2623-320A-47A2-9584-295B394B2480}">
+																				<Image FileName="-1219031186" Left="175" Top="241" Right="216" Bottom="262" />
+																				<TypeInfo Item0="{8101301C-7746-45CB-AA8E-B9C482A6AA2C}" />
+																				<Properties>
+																					<Property Name="NativeVBObject.Name">
+																						<Value Value="cmdNew" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="frmClientEdit" Key="{73315782-8A11-4F00-8EA6-C245683B4D29}">
+								<Image FileName="1872264135" Left="0" Top="0" Right="617" Bottom="723" />
+								<TypeInfo Item0="{7173BC72-8F4D-42F8-B83F-0959D1246E54}" />
+								<Properties>
+									<Property Name="NativeVBObject.Name">
+										<Value Value="frmClientEdit" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="tabMain" Key="{F59408A5-7C3A-40A5-B3C2-5C758E50FB51}">
+										<Image FileName="1872264135" Left="11" Top="42" Right="607" Bottom="685" />
+										<TypeInfo Item0="{EA35CA7F-2CD0-4224-96D6-32C4E15222D8}" />
+										<Properties>
+											<Property Name="NativeVBObject.Name">
+												<Value Value="tabMain" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="fraContact" Key="{AE54C7FF-AA11-4CF5-BEEC-4089886FD38D}">
+												<Image FileName="1872264135" Left="14" Top="64" Right="604" Bottom="682" />
+												<TypeInfo Item0="{EA35CA7F-2CD0-4224-96D6-32C4E15222D8}" />
+												<Properties>
+													<Property Name="NativeVBObject.Name">
+														<Value Value="fraContact" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="cboTitle" Key="{5F668361-8337-4555-8EBB-6E6FC6916A85}">
+														<Image FileName="1872264135" Left="82" Top="94" Right="278" Bottom="115" />
+														<TypeInfo Item0="{EA35CA7F-2CD0-4224-96D6-32C4E15222D8}" />
+														<Properties>
+															<Property Name="NativeVBObject.Name">
+																<Value Value="cboTitle" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="cboFreeText" Key="{B1D0E6EE-C91F-4B24-849B-4832BEB2E826}">
+																<Image FileName="1872264135" Left="82" Top="94" Right="278" Bottom="115" />
+																<TypeInfo Item0="{4E5BD137-5C4E-44F6-BA15-61B0C470150D}" />
+																<Properties>
+																	<Property Name="NativeVBObject.Name">
+																		<Value Value="cboFreeText" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="txtFirstName" Key="{DD25F476-4A18-4FE1-829D-F1FBC7A9683D}">
+														<Image FileName="1872264135" Left="82" Top="118" Right="278" Bottom="137" />
+														<TypeInfo Item0="{CD06E21F-880A-4415-A57B-D06EE4A46749}" />
+														<Properties>
+															<Property Name="NativeVBObject.Name">
+																<Value Value="txtFirstName" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="txtLastName" Key="{075A27F1-38CE-4D51-889D-699B19E4476D}">
+														<Image FileName="-682553623" Left="82" Top="142" Right="278" Bottom="161" />
+														<TypeInfo Item0="{CD06E21F-880A-4415-A57B-D06EE4A46749}" />
+														<Properties>
+															<Property Name="NativeVBObject.Name">
+																<Value Value="txtLastName" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="txtEmail" Key="{48378B39-BF53-420E-B1EF-DC112D3E0076}">
+														<Image FileName="-682553623" Left="82" Top="166" Right="278" Bottom="185" />
+														<TypeInfo Item0="{CD06E21F-880A-4415-A57B-D06EE4A46749}" />
+														<Properties>
+															<Property Name="NativeVBObject.Name">
+																<Value Value="txtEmail" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="txtCompany" Key="{8A3D6FAD-A9CA-4634-A568-23E7C08F95C7}">
+														<Image FileName="1382504841" Left="82" Top="190" Right="278" Bottom="209" />
+														<TypeInfo Item0="{CD06E21F-880A-4415-A57B-D06EE4A46749}" />
+														<Properties>
+															<Property Name="NativeVBObject.Name">
+																<Value Value="txtCompany" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="txtAddress_2" Key="{7443D83C-6FAA-4607-A172-3390B3171C39}">
+														<Image FileName="1382504841" Left="82" Top="214" Right="278" Bottom="263" />
+														<TypeInfo Item0="{CD06E21F-880A-4415-A57B-D06EE4A46749}" />
+														<Properties>
+															<Property Name="NativeVBObject.Name">
+																<Value Value="txtAddress" />
+															</Property>
+															<Property Name="NativeVBObject.Index">
+																<Value Value="0" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="txtPostCode_2" Key="{347B5D6C-E3C3-4DE1-82D9-20A16FAAB3AE}">
+														<Image FileName="870285064" Left="82" Top="294" Right="278" Bottom="313" />
+														<TypeInfo Item0="{CD06E21F-880A-4415-A57B-D06EE4A46749}" />
+														<Properties>
+															<Property Name="NativeVBObject.Name">
+																<Value Value="txtPostCode" />
+															</Property>
+															<Property Name="NativeVBObject.Index">
+																<Value Value="0" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="chkAllow_9" Key="{F263DF86-D86D-4EF5-A003-B290F4523592}">
+														<Image FileName="-730830649" Left="38" Top="400" Right="231" Bottom="419" />
+														<TypeInfo Item0="{7C7F677C-58CC-4F28-B539-3A18E2B6E9F6}" />
+														<Properties>
+															<Property Name="NativeVBObject.Name">
+																<Value Value="chkAllow" />
+															</Property>
+															<Property Name="NativeVBObject.Index">
+																<Value Value="0" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="chkAllow_2" Key="{6F363891-79FA-46B1-81C1-455D3251E9F7}">
+														<Image FileName="-1274350312" Left="38" Top="424" Right="231" Bottom="443" />
+														<TypeInfo Item0="{7C7F677C-58CC-4F28-B539-3A18E2B6E9F6}" />
+														<Properties>
+															<Property Name="NativeVBObject.Name">
+																<Value Value="chkAllow" />
+															</Property>
+															<Property Name="NativeVBObject.Index">
+																<Value Value="7" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="cmdAllowAll" Key="{B9FCF4CA-73F0-4A43-9CED-F1D686D24AB6}">
+														<Image FileName="-329256981" Left="38" Top="565" Right="107" Bottom="590" />
+														<TypeInfo Item0="{8101301C-7746-45CB-AA8E-B9C482A6AA2C}" />
+														<Properties>
+															<Property Name="NativeVBObject.Name">
+																<Value Value="cmdAllowAll" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="txtPhone" Key="{F4177439-5E02-4E5C-BD53-FF2119185BF7}">
+														<Image FileName="10002626" Left="394" Top="94" Right="567" Bottom="113" />
+														<TypeInfo Item0="{CD06E21F-880A-4415-A57B-D06EE4A46749}" />
+														<Properties>
+															<Property Name="NativeVBObject.Name">
+																<Value Value="txtPhone" />
+															</Property>
+															<Property Name="NativeVBObject.Index">
+																<Value Value="0" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="txtPhone_2" Key="{E7843BA5-862A-418B-B2AE-BF890C580E00}">
+														<Image FileName="-1552441722" Left="394" Top="118" Right="567" Bottom="137" />
+														<TypeInfo Item0="{CD06E21F-880A-4415-A57B-D06EE4A46749}" />
+														<Properties>
+															<Property Name="NativeVBObject.Name">
+																<Value Value="txtPhone" />
+															</Property>
+															<Property Name="NativeVBObject.Index">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="cmdOK" Key="{0F43EEFF-A72A-4947-ABE4-F307552BB358}">
+										<Image FileName="1870476098" Left="466" Top="693" Right="535" Bottom="718" />
+										<TypeInfo Item0="{8101301C-7746-45CB-AA8E-B9C482A6AA2C}" />
+										<Properties>
+											<Property Name="NativeVBObject.Name">
+												<Value Value="cmdOK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{714293E0-F9D6-4342-A462-63EBDB21E86F}">
+			<Child Name="wndCabinetWClass" Owner="{F41AEDCE-0567-44C2-BF50-DBB5622D1F35}" />
+			<Child Name="wndShell_TrayWnd" Owner="{7F727782-6398-4229-A6D5-1EA10E5D97BF}">
+				<Child Name="ReBarWindow32" Owner="{A22601AC-CB38-4733-B0BB-E5A067EAA9B2}">
+					<Child Name="MSTaskSwWClass" Owner="{F9A1BD46-7674-41AE-9955-541B513EBEA1}">
+						<Child Name="MSTaskListWClass" Owner="{536DF0E6-0C31-4D7B-A9C7-80AFC1071D95}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="RV5Code" Owner="{70870702-B407-4180-B8CB-05AF0C0400CB}">
+			<Child Name="frmLogon" Owner="{918CC823-7AC1-4B07-A21E-32BE0AD4F7B1}">
+				<Child Name="Frame1" Owner="{EC75B3EB-4E41-408E-985E-18874CFBC879}">
+					<Child Name="txtPassword" Owner="{1AB8F2EF-A6A2-43B7-8EAA-574D112369A9}" />
+				</Child>
+			</Child>
+			<Child Name="dlgRV5Code" Owner="{FED4102C-261B-4308-9F09-0843C254C7C4}">
+				<Child Name="btnOK" Owner="{7FCB4809-C3CE-4943-9CB8-97402C774CAE}" />
+			</Child>
+			<Child Name="frmMDIParent" Owner="{4A2351B6-0865-494B-A767-EF717E852299}">
+				<Child Name="MDIClient" Owner="{7D8BAC56-4B89-4B12-82F6-8C75065E83FB}">
+					<Child Name="frmMain" Owner="{D4AD41EC-0FD4-4C4F-A852-0581F2A94DB5}">
+						<Child Name="szMain" Owner="{D9BAC74D-41C2-4E13-9F51-54B697033442}">
+							<Child Name="szMainLeft" Owner="{5F27667E-F6B3-4CBF-B73E-0377172D8D9D}">
+								<Child Name="objRVSearch" Owner="{090ECAD3-433C-46FC-983E-5EC90618BE7B}">
+									<Child Name="cmdNew" Owner="{7DDB2623-320A-47A2-9584-295B394B2480}" />
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="frmClientEdit" Owner="{73315782-8A11-4F00-8EA6-C245683B4D29}">
+				<Child Name="tabMain" Owner="{F59408A5-7C3A-40A5-B3C2-5C758E50FB51}">
+					<Child Name="fraContact" Owner="{AE54C7FF-AA11-4CF5-BEEC-4089886FD38D}">
+						<Child Name="cboTitle" Owner="{5F668361-8337-4555-8EBB-6E6FC6916A85}">
+							<Child Name="cboFreeText" Owner="{B1D0E6EE-C91F-4B24-849B-4832BEB2E826}" />
+						</Child>
+						<Child Name="txtFirstName" Owner="{DD25F476-4A18-4FE1-829D-F1FBC7A9683D}" />
+						<Child Name="txtLastName" Owner="{075A27F1-38CE-4D51-889D-699B19E4476D}" />
+						<Child Name="txtEmail" Owner="{48378B39-BF53-420E-B1EF-DC112D3E0076}" />
+						<Child Name="txtCompany" Owner="{8A3D6FAD-A9CA-4634-A568-23E7C08F95C7}" />
+						<Child Name="txtAddress_2" Owner="{7443D83C-6FAA-4607-A172-3390B3171C39}" />
+						<Child Name="txtPostCode_2" Owner="{347B5D6C-E3C3-4DE1-82D9-20A16FAAB3AE}" />
+						<Child Name="chkAllow_9" Owner="{F263DF86-D86D-4EF5-A003-B290F4523592}" />
+						<Child Name="chkAllow_2" Owner="{6F363891-79FA-46B1-81C1-455D3251E9F7}" />
+						<Child Name="cmdAllowAll" Owner="{B9FCF4CA-73F0-4A43-9CED-F1D686D24AB6}" />
+						<Child Name="txtPhone" Owner="{F4177439-5E02-4E5C-BD53-FF2119185BF7}" />
+						<Child Name="txtPhone_2" Owner="{E7843BA5-862A-418B-B2AE-BF890C580E00}" />
+					</Child>
+				</Child>
+				<Child Name="cmdOK" Owner="{0F43EEFF-A72A-4947-ABE4-F307552BB358}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

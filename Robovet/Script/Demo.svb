@@ -1,0 +1,4 @@
+﻿Sub Test1()
+  'Contents of the edit control, as text string.
+  Aliases.RV5Code.frmClientEdit.tabMain.fraContact.txtPhone_2.wText = "7018123566"
+End Sub

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{3CC2AB2E-9B83-43C3-B40B-6B641B7585FD}">
+	<children>
+		<child name="Robovet" key="{B6B19165-FA45-4E9C-9E2F-2406E136F44A}" path="Robovet\Robovet.mds" />
+	</children>
+	<testItems key="{0EA92175-7EC4-44C2-BCB7-8B0552B9C349}">
+		<children>
+			<testItem key="{B6B19165-FA45-4E9C-9E2F-2406E136F44A}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{4805E80F-29CD-4085-A28C-977459D3DF5B}" />
+	<analysis key="{6D72897C-D938-4DFD-BC90-5B89B8D85013}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>
